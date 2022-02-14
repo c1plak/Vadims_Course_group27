@@ -1,11 +1,11 @@
 1. На локальном репозитории сделать ветки для:
-- Postman === `git branch Postman`
-- Jmeter === `git branch Jmeter`
-- CheckLists === `git branch CheckLists`
-- Bug_Reports === `git branch Bug_Reports`
-- SQL === `git branch SQL`
-- Charles === `git branch Charles`
-- Mobile_testing === `git branch Mobile_testing`
+  - Postman === `git branch Postman`
+  - Jmeter === `git branch Jmeter`
+  - CheckLists === `git branch CheckLists`
+  - Bug_Reports === `git branch Bug_Reports`
+  - SQL === `git branch SQL`
+  - Charles === `git branch Charles`
+  - Mobile_testing === `git branch Mobile_testing`
 
 2. Запушить все ветки на внешний репозиторий === `git push origin --all`
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта === `git checkout Bug_Reports` --> `vim Bug_Report.txt`
