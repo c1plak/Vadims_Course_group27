@@ -15,4 +15,4 @@
 8. В ветке CheckLists набросать структуру чек листа. === `git checkout CheckLists` -> `vim CheckLists.txt` 
 9. Запушить структуру на внешний репозиторий === `git add .` -> `git commit -m "comment"` -> `git push origin CheckLists`
 10. На внешнем репозитории сделать Pull Request ветки CheckLists в main === на вэбе Compare & pull request -> Create pull request -> Merge pull request -> Confirm merge 
-11. Синхронизировать Внешнюю и Локальную ветки Main === `git pull`
+11. Синхронизировать Внешнюю и Локальную ветки Main === `git checkout main` -> `git pull`
