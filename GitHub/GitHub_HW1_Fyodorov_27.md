@@ -35,7 +35,7 @@
 33. Отправить сразу 2 файла на внешний репозиторий === `git push`
 34. На веб интерфейсе создать файл bug_report.xml === Add file --> Create new file --> Name: bug_report.xml
 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе === Commit New File
-36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML === Choose bug_report.json --> Edit this file 
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML === Choose bug_report.xml --> Edit this file 
 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе === Commit changes
 38. Синхронизировать внешний и локальный репозиторий XML === `git pull`
 
