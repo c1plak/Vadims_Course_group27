@@ -1,4 +1,4 @@
-# JSON ([JSON репозиторий](../../../JSON))
+# JSON ([JSON репозиторий](https://github.com/c1plak/JSON))
 
 4) Создать внешний репозиторий c названием JSON === На вэбе Repositories --> New --> Repos Name:JSON --> Check "Add a README file" --> Press "Create repository"
 5) Клонировать репозиторий JSON на локальный компьютер === `git clone <repository HTTPS>`
