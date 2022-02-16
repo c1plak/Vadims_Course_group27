@@ -39,7 +39,7 @@
 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе === Commit changes
 38. Синхронизировать внешний и локальный репозиторий XML === `git pull`
 
-# TXT ([TXT репозиторий]())
+# TXT ([TXT репозиторий](https://github.com/c1plak/TXT))
 
  1. Создать внешний репозиторий c названием TXT. === На вэбе Repositories --> New --> Repos Name:TXT --> Check "Add a README file" --> Press "Create repository"
  2. Клонировать репозиторий TXT на локальный компьютер. === `git clone <HTTPS repo>`
