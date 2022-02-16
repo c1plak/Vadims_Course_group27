@@ -18,7 +18,7 @@
 19) Сделать Commit changes (сохранить) изменения на веб интерфейсе === Commit changes
 20) Синхронизировать внешний и локальный репозиторий JSON === `git pull`
 
-# XML
+# XML ([XML репозиторий](https://github.com/c1plak/XML))
 
 21. Создать внешний репозиторий c названием XML === На вэбе Repositories --> New --> Repos Name:XML --> Check "Add a README file" --> Press "Create repository"
 22. Клонировать репозиторий XML на локальный компьютер === `git clone <repository_linkHTTPS>`
