@@ -13,11 +13,11 @@
 13) переместить любые 2 файла, которые вы создали, в любую другую папку === ```mv folder_name2/file{1,2}.txt folder_name3/```
 14) скопировать любые 2 файла, которые вы создали, в любую другую папку === ```cp folder_name3/file{1,2}.txt folder_name2/```
 15) Найти файл по имени === ```find <path> -name HW1.txt```
-16) Просмотреть содержимое в реальном времени === ```tail -f filename.txt``` or ```tail -F filename.txt``` or ```less +F filename.txt```
+16) Просмотреть содержимое в реальном времени === ```tail -f filename.txt``` *or* ```tail -F filename.txt``` *or* ```less +F filename.txt```
 17) Вывести несколько первых строк из текстового файла === ``` head filename.txt ```
-							or ```head -n5 filename.txt (5 строк)```
+							*or* ```head -n5 filename.txt (5 строк)```
 18) Вывести несколько последних строк из текстового файла === ```tail filename.txt```
-							or ```tail -5 filename.txt (5 строк)```
+							*or* ```tail -5 filename.txt (5 строк)```
 
 19) Просмотреть содержимое длинного файла === ```less filename.txt```
 20) Вывести дату и время === ```date```
