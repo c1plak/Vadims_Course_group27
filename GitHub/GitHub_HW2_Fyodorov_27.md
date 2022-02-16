@@ -8,7 +8,7 @@
     - Mobile_testing === `git branch Mobile_testing`
 
 2. Запушить все ветки на внешний репозиторий === `git push origin --all`
-3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта === `git checkout Bug_Reports` --> `vim Bug_Report.txt`
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта === `git checkout Bug_Reports` -> `vim Bug_Report.txt`
 4. Запушить структуру багрепорта на внешний репозиторий === `git add Bug_Report.txt` -> `git commit -m "comment"` -> `git push origin Bug_Report`
 6. Вмержить ветку Bug Reports в Main === `git checkout main` -> `git merge Bug_Reports`
 7. Запушить main на внешний репозиторий. === `git push`
