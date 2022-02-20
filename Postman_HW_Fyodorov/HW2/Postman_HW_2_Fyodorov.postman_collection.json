@@ -12,10 +12,12 @@
 					"listen": "test",
 					"script": {
 						"exec": [
+							"//2. Статус код 200\r",
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"\r",
+							"//3. Проверить, что в body приходит правильный string.\r",
 							"pm.test(\"Body matches string\", function () {\r",
 							"    pm.expect(pm.response.text()).to.include(\"This is the first responce from server!\");\r",
 							"});"
@@ -130,7 +132,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2",
+					"raw": "http://162.55.220.72:5005/user_info_3",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -140,7 +142,7 @@
 					],
 					"port": "5005",
 					"path": [
-						"user_info_2"
+						"user_info_3"
 					]
 				}
 			},
@@ -283,12 +285,16 @@
 							"\r",
 							"//8. Вывести в консоль параметр salary из response.\r",
 							"    //console.log(res.salary);\r",
+							"\r",
 							"//9. Вывести в консоль 0-й элемент параметра salary из response.\r",
 							"   //console.log(res.salary[0]);\r",
+							"\r",
 							"//10. Вывести в консоль 1-й элемент параметра salary параметр salary из response.\r",
 							"   //console.log(res.salary[1]);\r",
+							"\r",
 							"//11. Вывести в консоль 2-й элемент параметра salary параметр salary из response.\r",
 							"   //console.log(res.salary[2]);\r",
+							"\r",
 							"//12. Проверить, что 0-й элемент параметра salary равен salary из request (salary забрать из request.)\r",
 							"    pm.test(\"Check_salary_fromRes_equal_salary_fromReq\", function(){\r",
 							"        pm.expect(res.salary[0]).to.equal(req_salary);\r",

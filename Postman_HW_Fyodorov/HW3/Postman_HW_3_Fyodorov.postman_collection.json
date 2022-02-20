@@ -12,6 +12,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
+							"//Приходящий токен необходимо передать во все остальные запросы.\r",
 							"var res = pm.response.json();\r",
 							"\r",
 							"postman.setEnvironmentVariable(\"token\",res.token)"
@@ -62,7 +63,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"var req = JSON.parse(pm.request.body.raw); //pm.request.body.raw;\r",
+							"var req = JSON.parse(pm.request.body.raw);\r",
 							"var res = pm.response.json();\r",
 							"    //console.log(req,res)\r",
 							"\r",
@@ -203,7 +204,7 @@
 							"//4) проверить, что 2-й элемент массива salary больше 1-го и 0-го\r",
 							"pm.test(\"Check if_zero_element<first_element<second_element\", function(){\r",
 							"    let a = false; \r",
-							"    if ((res.salary[2]>res.salary[1]) && (res.salary[2]>res.salary[0])) {\r",
+							"    if (res.salary[2]>res.salary[1] && res.salary[2]>res.salary[0]) {\r",
 							"        a = true;\r",
 							"    }\r",
 							"    pm.expect(a).to.be.true;\r",
@@ -291,6 +292,7 @@
 							"})\r",
 							"//console.log(tv4.error)\r",
 							"//console.log(tv4.error.dataPath)\r",
+							"\r",
 							"//3) В ответе указаны коэффициенты умножения weight, напишите тесты по проверке правильности результата перемножения на коэффициент.\r",
 							"pm.test(\"Check resDaily_food_equal_reqWeight*0.012\", function(){\r",
 							"    pm.expect(res.daily_food).to.equal(req.weight*0.012);\r",
@@ -356,6 +358,9 @@
 					"listen": "test",
 					"script": {
 						"exec": [
+							"let res = pm.response.json();\r",
+							"let req = request.data;\r",
+							"\r",
 							"//1) Статус код 200\r",
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -380,13 +385,19 @@
 							"pm.test(\"Schema is valid\", function(){\r",
 							"    pm.expect(tv4.validate(jsonData,schema)).to.be.true\r",
 							"})\r",
-							"console.log(tv4.error)\r",
+							"//console.log(tv4.error)\r",
 							"//console.log(tv4.error.dataPath)\r",
 							"\r",
 							"//3) Проверить что занчение поля name = значению переменной name из окружения\r",
+							"pm.test(\"Check req.name equal {{name}}\", function(){\r",
+							"    pm.expect(res.name).to.equal(pm.environment.get(\"name\"))\r",
+							"});\r",
 							"\r",
 							"\r",
-							"//4) Проверить что занчение поля age в ответе соответсвует отправленному в запросе значению поля age"
+							"//4) Проверить что занчение поля age в ответе соответсвует отправленному в запросе значению поля age\r",
+							"pm.test(\"Check res.age equal req.age\", function(){\r",
+							"    pm.expect(res.age).to.equal(req.age)\r",
+							"});"
 						],
 						"type": "text/javascript"
 					}
@@ -453,15 +464,13 @@
 							"\r",
 							"let a = Math.round(Math.random()*(res_number-1));\r",
 							"//console.log(a)\r",
-							"//postman.setEnvironmentVariable(\"Cur_ID\",res[a].Cur_ID);\r",
+							"postman.setEnvironmentVariable(\"Cur_ID\",res[a].Cur_ID);\r",
 							"\r",
-							"\r",
+							"//************************************\r",
 							"//2) получить список валют\r",
 							"\r",
 							"\r",
-							"//3) итерировать список валют\r",
-							"\r",
-							"\r",
+							"/*3) итерировать список валют\r",
 							"    for (i = 0; i < res_number; i++) {\r",
 							"    //console.log(res[i])\r",
 							"    const options = { \r",
@@ -508,7 +517,7 @@
 							"}*/\r",
 							"\r",
 							"\r",
-							"//8) переходим к следующей итерации"
+							"//8) переходим к следующей итерации*/"
 						],
 						"type": "text/javascript"
 					}
