@@ -1,5 +1,5 @@
-Commands:``cd, mkdir, rm, mv, cp, find,
-grep, tail, head, less, cat, vim, nano, pwd,
-touch``
+### Commands:
 
-[:arrow_backward:BACK](https://github.com/c1plak/Vadims_Course_group27)
+### ``cd, mkdir, rm, mv, cp, find, grep, tail, head, less, cat, vim, nano, pwd, touch``
+---
+### [:arrow_backward:Back to repository](https://github.com/c1plak/Vadims_Course_group27)
