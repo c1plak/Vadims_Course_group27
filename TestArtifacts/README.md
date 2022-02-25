@@ -8,4 +8,4 @@
 
 ### [:dart:**Check List**](https://github.com/c1plak/Vadims_Course_group27/blob/main/TestArtifacts/checklist.md)
 
-### [:arrow_backward:BACK TO REPOSITORY](https://github.com/c1plak/Vadims_Course_group27)
+### [:arrow_backward:Back to repository](https://github.com/c1plak/Vadims_Course_group27)
