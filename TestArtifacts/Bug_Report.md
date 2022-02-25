@@ -1,4 +1,4 @@
-### Bug Report structure ([:arrow_backward:BACK TO TEST ARTIFACTS](https://github.com/c1plak/Vadims_Course_group27/tree/main/TestArtifacts))
+### Bug Report structure ([:arrow_backward:Back to test artifacts](https://github.com/c1plak/Vadims_Course_group27/tree/main/TestArtifacts))
 
 
 |   **ID**  	| **Priority** 	|          **Environment**          	|                                            **Summary**                                            	|                             **STR**                             	|                                                             **Test data**                                                             	|                        **Expected Result**                       	|                             **Actual Result**                            	| **Attachments** 	|   	|   	|
@@ -15,6 +15,6 @@
 
 ### Navigate:
 
-### [:arrow_backward:BACK TO TEST ARTIFACTS](https://github.com/c1plak/Vadims_Course_group27/tree/main/TestArtifacts)
+### [:arrow_backward:Back to test artifacts](https://github.com/c1plak/Vadims_Course_group27/tree/main/TestArtifacts)
 
-### [:arrow_backward:BACK TO REPOSITORY](https://github.com/c1plak/Vadims_Course_group27)
+### [:arrow_backward:Back to repository](https://github.com/c1plak/Vadims_Course_group27)
