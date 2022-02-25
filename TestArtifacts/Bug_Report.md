@@ -13,6 +13,7 @@
 |           	|              	|                                   	|                                                                                                   	| 8. Нажать на пиктограмму глаза напротив созданной записи        	|                                                                                                                                       	| 8. Прикреплённый в шаге 6 файл сохранён и отображается в анкете. 	| 8. Прикреплённый в шаге 6 файл не сохраняется и не отображается в анкете 	|                 	|   	|   	|
 
 
+### Navigate to:
 
 ### [:arrow_backward:BACK TO TEST ARTIFACTS](https://github.com/c1plak/Vadims_Course_group27/tree/main/TestArtifacts)
 
