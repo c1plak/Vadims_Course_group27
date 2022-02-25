@@ -1,4 +1,4 @@
-### Test Case structure ([:arrow_backward:BACK](https://github.com/c1plak/Vadims_Course_group27))
+### Test Case structure ([:arrow_backward:BACK TO TEST ARTIFACTS](https://github.com/c1plak/Vadims_Course_group27/tree/main/TestArtifacts))
 
 | **ID** 	| **Name** 	| **Precondition** 	| **Priority** 	| **Component** 	| **Labels** 	| **Steps** 	| **Test Data** 	| **Expected Result** 	|  	|
 |---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
@@ -9,5 +9,8 @@
 |  	|  	|  	|  	|  	|  	| 2. Выбрать пункт "Удалить". 	|  	| 2. Поялвяется предупреждающее оповещение об удалении. 	|  	|
 |  	|  	|  	|  	|  	|  	| 3. Подтвердить удаление. 	|  	| 3. Запись успешно удалена. 	|  	|
 
+### Navigate:
+
+### [:arrow_backward:BACK TO TEST ARTIFACTS](https://github.com/c1plak/Vadims_Course_group27/tree/main/TestArtifacts)
 
 ### [:arrow_backward:BACK](https://github.com/c1plak/Vadims_Course_group27)
