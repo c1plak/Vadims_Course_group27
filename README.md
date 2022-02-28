@@ -8,4 +8,6 @@
 
 ### :dart:[**Postman**](https://github.com/c1plak/Vadims_Course_group27/tree/main/Postman_HW_Fyodorov)
 
+### :dart:[**SQL**](https://github.com/c1plak/Vadims_Course_group27/tree/main/SQL)
+
 ### :dart:[**Test Artifacts**](https://github.com/c1plak/Vadims_Course_group27/tree/main/TestArtifacts)
